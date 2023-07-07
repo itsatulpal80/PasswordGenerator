@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border: solid 2px red;
+    width: 269px;
+  
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background: #2980b9;
+    padding: 10px;
+
+
+}
+body{
+    
+    background-color: #3498db;
+    
+
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 4px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+label {
+    user-select: none;
+}
+
+#btn {
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
